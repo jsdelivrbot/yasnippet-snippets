@@ -1,0 +1,3 @@
+#+TITLE: Deepu's Yasnippet snippets
+
+I use these snippets to extend the excellent snippets provided by [[https://github.com/AndreaCrotti][AndreaCrotti]], available [[https://github.com/AndreaCrotti/yasnippet-snippets][here.]]

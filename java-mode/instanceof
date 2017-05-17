@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: instanceof
+# key: inst
+#
+# http://cupfullofcode.com/blog/2013/02/26/snippet-expansion-with-yasnippet/index.html
+# This snippet uses mirrored fields
+# --
+
+if (${1:item} instanceof ${2:Object}) {
+   $2 ${3:o} = ($2) $1;
+}

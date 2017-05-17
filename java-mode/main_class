@@ -1,0 +1,14 @@
+# contributor: L. Guruprasad <lgp171188@gmail.com>
+# contributor: Deepu Mohan Puthrote <git@deepumohan.com>
+# name: main_class
+# key: main_class
+# --
+package ${1:`(mapconcat 'identity (cdr (member "java" (split-string default-directory "/" t))) ".")`};
+
+public class `(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))` {
+
+      public static void main(String args[]) {
+             $0
+      }
+
+}
