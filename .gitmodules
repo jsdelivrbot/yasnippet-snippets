@@ -1,0 +1,3 @@
+[submodule "org-mode"]
+	path = org-mode
+	url = git@github.com:WarFox/yasnippet-org-mode.git
